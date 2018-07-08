@@ -1,0 +1,9 @@
+net: "train.prototxt"
+base_lr: 0.15
+lr_policy: "fixed"
+#display: 1000
+max_iter: 20000
+momentum: 0.95
+snapshot_prefix: "simple_mlp"
+#debug_info: true
+solver_mode: CPU
